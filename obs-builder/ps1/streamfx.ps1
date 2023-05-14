@@ -45,14 +45,13 @@ function Copy-StreamFX {
   )
   # - OBS Studio に StreamFX を導入 -
   # StreamFX.dll & StreamFX.pdb -> "obs-studio/obs-plugins/64bit"
-  $builded_dir = Join-Path $current_dir "builded/obs-studio"
-  $plugins_dir = Join-Path $builded_dir "obs-plugins/64bit"
-  $dll_path = Join-Path $builds_dir "RelWithDebInfo/StreamFX.dll"
+  $plugins_dir = Join-Path $current_dir "builded/obs-studio/obs-plugins/64bit"
+  $dll_path = Join-Path $current_dir "obs-StreamFX/builds/RelWithDebInfo/StreamFX.dll"
   Copy-Item -Path $dll_path -Destination $plugins_dir
-  $pdb_path = Join-Path $builds_dir "RelWithDebInfo/StreamFX.pdb"
+  $pdb_path = Join-Path $current_dir "obs-StreamFX/builds/RelWithDebInfo/StreamFX.pdb"
   Copy-Item -Path $pdb_path -Destination $plugins_dir
   # effects, examples, locale, thanks.json -> "obs-studio/data/obs-plugins/StreamFX"
-  $plugins_data_dir = Join-Path $builded_dir "data/obs-plugins"
+  $plugins_data_dir = Join-Path $current_dir "builded/obs-studio/data/obs-plugins"
   $plugins_data_streamfx_dir = Join-Path $plugins_data_dir "StreamFX"
   New-Item $plugins_data_streamfx_dir -ItemType Directory
   $streamfx_data_dir = Join-Path $current_dir "obs-StreamFX/data/*"

@@ -54,7 +54,7 @@ Copy-StreamFX $current_dir
 
 # ======================================================================================================================================
 
-# /* CopyPlugin */
+# /* Copy-Plugin */
 # カレントディレクトリのリセット
 Set-Location -Path $current_dir
 . ./ps1/copy_plugin.ps1
@@ -107,4 +107,5 @@ if ($obs_ver.Substring(0, 2) -le 27) {
 # カレントディレクトリのリセット
 Set-Location -Path $current_dir
 # bat, ps1 ファイルと builded フォルダ以外を削除
-Remove-Item "obs-*","move-transition","scene-collection-manager","*.zip" -Exclude "build.bat","obs-build.ps1","builded","ps1" -Recurse -Force
+Remove-Item "obs-*","move-transition","scene-collection-manager","*.zip" `
+  -Exclude "build.bat","obs-build.ps1","builded","ps1" -Recurse -Force

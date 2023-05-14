@@ -1,4 +1,7 @@
-# OBS 27.2.4 Build For StreamFX 0.11.1
+# OBS Builder
+
+* Readme.md 未完成
+* 多分、ソースコードは完成：OBS 28, StreamFX 0.12 以上は未確認
 
 [StreamFX_0.11.1]:https://github.com/Xaymar/obs-StreamFX/releases/tag/0.11.
 [OBS_27.2.4]:https://github.com/obsproject/obs-studio/releases/tag/27.2.4
