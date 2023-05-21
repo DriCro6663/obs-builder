@@ -1,5 +1,7 @@
 # OBS Builder
 
+## /\* [日本語の Readme.md はコチラ](./Readme-JP.md) \*/
+
 [OBS]:https://github.com/obsproject/obs-studio/releases
 [OBS_27.2.4]:https://github.com/obsproject/obs-studio/releases/tag/27.2.4
 
@@ -200,8 +202,8 @@ Batch files to build [OBS Studio][OBS] for using [OBS Scene Collection: Advanced
 
 ## Updates
 
-* 2023/05/07:<br>
-   Released [v1.0.0](https://github.com/DriCro6663/bmovt/releases/tag/v0.0.1).
+* 2023/05/21:<br>
+   Released [v1.0.0](https://github.com/DriCro6663/obs-builder/releases/tag/v1.0.0).
 
 ## Author
 

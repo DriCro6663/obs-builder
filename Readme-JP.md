@@ -204,8 +204,8 @@
 
 ## 更新情報
 
-* 2023/05/07:<br>
-  [v1.0.0](https://github.com/DriCro6663/bmovt/releases/tag/v0.0.1) を公開。
+* 2023/05/21:<br>
+  [v1.0.0](https://github.com/DriCro6663/obs-builder/releases/tag/v1.0.0) を公開。
 
 ## 開発者情報 & 文責
 
